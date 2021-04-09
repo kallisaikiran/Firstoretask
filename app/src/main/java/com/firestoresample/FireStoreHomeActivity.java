@@ -75,10 +75,7 @@ public class FireStoreHomeActivity extends AppCompatActivity {
                         intent.putExtra("message",getIntent().getStringExtra("message"));
                         startActivity(intent);
                         break;
-               /*     case R.id.myprofile:
-                        Intent view_jobs = new Intent(getApplicationContext(), MyProfileActivity.class);
-                        startActivity(view_jobs);
-                        break;*/
+
 
                     case R.id.logout:
                         Intent logout = new Intent(getApplicationContext(), FirestoreMainActivity.class);

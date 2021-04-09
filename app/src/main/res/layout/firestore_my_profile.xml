@@ -49,39 +49,6 @@
                 android:hint="Email"
                 android:paddingLeft="10dp" />
 
-            <RadioGroup
-                android:id="@+id/radioGroup"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/radioMale"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:padding="6dp"
-                    android:background="@drawable/edittext_rounded"
-                    android:checked="false"
-                    android:text=" Male"
-                    android:textSize="20dp" />
-
-                <RadioButton
-                    android:id="@+id/radioFemale"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="6dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/edittext_rounded"
-                    android:checked="false"
-                    android:text="   Female"
-                    android:textSize="20dp" />
-            </RadioGroup>
 
 
             <EditText
@@ -118,6 +85,39 @@
                 android:background="@drawable/edittext_rounded"
                 android:hint="Password"
                 android:paddingLeft="10dp" />
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:background="@drawable/edittext_rounded"
+                    android:checked="false"
+                    android:text=" Male"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_rounded"
+                    android:checked="false"
+                    android:text="   Female"
+                    android:textSize="20dp" />
+            </RadioGroup>
 
 
         </LinearLayout>
